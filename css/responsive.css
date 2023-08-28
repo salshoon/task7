@@ -1,0 +1,123 @@
+
+@media all and (min-width: 834px){
+    .header-wrapper{
+        height: 700px;
+        background-image: url(../image/header-md.png);
+    }
+    .header-wrapper .paragraph {
+        font-size: var(--header-p-md-fs);
+        max-width: 648px;
+    }
+    .articles .title {
+      font-size: var(--section-title-md);
+    }
+    .articles img:last-child{
+      display: none;
+    }
+    .articles .conteiner {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 54px;
+      
+    }
+    /* about */
+    .about .conteiner {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .about .conteiner .text {
+      max-width: 324px;
+      font-size: 1.6rem;
+     
+
+    }
+    .about .conteinr .text, .img{
+      margin: 0 44px;
+   }
+    /*footer */
+footer {
+   height: 217px;
+   justify-content: space-between;
+}
+footer .social-icons{
+   gap: 48px;
+}
+    @media all and (min-width: 1024px){
+     
+     .header-wrapper{
+        background-image: url(../image/header-lg.png);
+     }
+     .logo {
+        font-size: var(--logo-lg);
+       margin-left: 125px;
+        margin-bottom: 32px; 
+     }
+     nav {
+        display: block;
+     }
+     .nav-list {
+        display: flex;
+        font-size: 32px;
+        font-weight: 700;
+        font-family: Gentium Book Basic;
+        margin-right: 125px;
+     }
+     .nav-item.middle {
+        margin: 0  35px;
+     }
+     .nav-list .nav-link {
+        color:white;
+     }
+    
+     .burger-btn {
+        display: none;
+    }
+    .header-wrapper .paragraph {
+        font-size: var(--header-p-lg-fs);
+        max-width: 950px;
+    }
+    .articles .conteiner {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      gap: 52px;
+
+    }
+    /*footer */
+
+    foter {
+      padding: 0 90px;
+    }
+    footer .logo {
+      display: block;
+      margin-left: 125px;
+      margin-bottom: 32px;
+    }
+     
+    }
+    @media all and (min-width: 1440px) {
+     .header-wrapper{
+        background-image: url(../image/header-xl.png);
+     }
+     .header-wrapper .paragraph {
+        font-size: var(--header-p-md-fs);
+        max-width: 1046px;
+    } 
+    
+    footer.logo {
+      font-size: var(--logo-lg);
+      margin-right: 125px;
+      margin-bottom: 32px;
+   }
+    .articles img:last-child{
+      display: block;
+    }
+    .about .conteiner {
+      gap: 60px;
+    }
+    footer .social-icons {
+      margin-right: 125px;
+    }
+  }

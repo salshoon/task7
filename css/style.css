@@ -1,0 +1,125 @@
+:root {
+    --logo-sm: 64px;
+    --logo-lg: 128px;
+    --main-silver: #C0B4B4;
+    --header-p-sm-fs: 2.4rem;
+    --header-p-md-fs: 3.2rem;
+    --header-p-lg-fs: 4rem;
+    --breakpoint-md: 834px;
+    --breakpoint-lg: 1024px;
+
+    --breakpoint-xl: 1440px;
+    --main-brown: #2A2626; 
+    --section-title-sm: 3.6rem;
+    --section-title-md: 4.8rem;
+
+}
+body {
+    background-color: black;
+}
+
+/* header */
+
+.logo {
+    font-size: var(--logo-sm);
+    color: white;
+
+}
+nav {
+    display: none;
+}
+
+
+ 
+.header-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 696px;
+    background-image: url(../image/header-sm.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.header-wrapper .paragraph{
+    text-align: center;
+    color: #C0B4B4 ;
+    max-width: 420px;
+    font-size: var(--header-p-sm-fs);
+    margin: auto;
+    margin-bottom: 2em;
+
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+/* articles */
+ 
+.articles {
+    background-color: var(--main-brown);
+}
+.section-title{
+    color: white;
+    font-size: var(--section-title-sm);
+    text-align: center;
+    padding-bottom: 1.2em;
+}
+.articles .conteiner {
+    display: flex;
+    flex-direction: column;
+}
+.articles .conteiner img {
+    margin: 1.2em 0;
+}
+/* about */
+.about .conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ .about .conteiner .text {
+    height: 280px;
+    color: white;
+    background-color: #8E8B8B;
+    font-size: 1.6rem;
+    
+ }
+
+ .about .conteinr .text, .img{
+    margin: 1.2em 0;
+ }
+ .about .conteiner .text p{
+    padding: 2em;
+ }
+ /*footer */
+ footer {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    background-color: var(--main-brown);
+
+ }
+
+ footer .logo{
+    display: none;
+ }
+ footer .social-icons {
+    display: flex;
+    align-items: center;
+    gap: 36px; 
+   
+ }
+
+
+ /* general */
+ section {
+    padding: 4.8em 3em;
+
+ }
